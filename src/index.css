@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.hero-section{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1027%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(33%2c 37%2c 41%2c 1)'%3e%3c/rect%3e%3cpath d='M59.67 -56.76L120.29 -21.76L120.29 48.24L59.67 83.24L-0.95 48.24L-0.95 -21.76zM120.29 468.24L180.92 503.24L180.92 573.24L120.29 608.24L59.67 573.24L59.67 503.24zM180.92 -56.76L241.54 -21.76L241.54 48.24L180.92 83.24L120.29 48.24L120.29 -21.76zM180.92 153.24L241.54 188.24L241.54 258.24L180.92 293.24L120.29 258.24L120.29 188.24zM241.54 258.24L302.16 293.24L302.16 363.24L241.54 398.24L180.92 363.24L180.92 293.24zM362.79 48.24L423.41 83.24L423.41 153.24L362.79 188.24L302.16 153.24L302.16 83.24zM362.79 258.24L423.41 293.24L423.41 363.24L362.79 398.24L302.16 363.24L302.16 293.24zM302.16 363.24L362.79 398.24L362.79 468.24L302.16 503.24L241.54 468.24L241.54 398.24zM665.9 -56.76L726.53 -21.76L726.53 48.24L665.9 83.24L605.28 48.24L605.28 -21.76zM1090.27 48.24L1150.89 83.24L1150.89 153.24L1090.27 188.24L1029.65 153.24L1029.65 83.24zM1029.65 153.24L1090.27 188.24L1090.27 258.24L1029.65 293.24L969.02 258.24L969.02 188.24zM1211.52 48.24L1272.14 83.24L1272.14 153.24L1211.52 188.24L1150.89 153.24L1150.89 83.24zM1150.89 363.24L1211.52 398.24L1211.52 468.24L1150.89 503.24L1090.27 468.24L1090.27 398.24zM1211.52 468.24L1272.14 503.24L1272.14 573.24L1211.52 608.24L1150.89 573.24L1150.89 503.24zM1272.14 -56.76L1332.76 -21.76L1332.76 48.24L1272.14 83.24L1211.52 48.24L1211.52 -21.76zM1272.14 363.24L1332.76 398.24L1332.76 468.24L1272.14 503.24L1211.52 468.24L1211.52 398.24zM1393.39 363.24L1454.01 398.24L1454.01 468.24L1393.39 503.24L1332.76 468.24L1332.76 398.24z' stroke='rgba(255%2c 254%2c 254%2c 0.15)' stroke-width='2'%3e%3c/path%3e%3cpath d='M52.67 -56.76 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM113.29 -21.76 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM113.29 48.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM52.67 83.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM-7.95 48.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM-7.95 -21.76 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM113.29 468.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM173.92 503.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM173.92 573.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM113.29 608.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM52.67 573.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM52.67 503.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM173.92 -56.76 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM234.54 -21.76 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM234.54 48.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM173.92 83.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM173.92 153.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM234.54 188.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM234.54 258.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM173.92 293.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM113.29 258.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM113.29 188.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM295.16 293.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM295.16 363.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM234.54 398.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM173.92 363.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM355.79 48.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM416.41 83.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM416.41 153.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM355.79 188.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM295.16 153.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM295.16 83.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM355.79 258.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM416.41 293.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM416.41 363.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM355.79 398.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM355.79 468.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM295.16 503.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM234.54 468.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM658.9 -56.76 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM719.53 -21.76 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM719.53 48.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM658.9 83.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM598.28 48.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM598.28 -21.76 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1083.27 48.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1143.89 83.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1143.89 153.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1083.27 188.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1022.65 153.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1022.65 83.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1083.27 258.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1022.65 293.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM962.02 258.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM962.02 188.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1204.52 48.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1265.14 83.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1265.14 153.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1204.52 188.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1143.89 363.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1204.52 398.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1204.52 468.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1143.89 503.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1083.27 468.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1083.27 398.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1265.14 503.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1265.14 573.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1204.52 608.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1143.89 573.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1265.14 -56.76 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1325.76 -21.76 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1325.76 48.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1204.52 -21.76 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1265.14 363.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1325.76 398.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1325.76 468.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1386.39 363.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1447.01 398.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1447.01 468.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0zM1386.39 503.24 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0z' fill='rgba(255%2c 254%2c 254%2c 0.15)'%3e%3c/path%3e%3cpath d='M224.96 223.72L268.26 248.72L268.26 298.72L224.96 323.72L181.66 298.72L181.66 248.72zM268.26 298.72L311.57 323.72L311.57 373.72L268.26 398.72L224.96 373.72L224.96 323.72zM354.87 148.72L398.17 173.72L398.17 223.72L354.87 248.72L311.57 223.72L311.57 173.72zM484.78 523.72L528.08 548.72L528.08 598.72L484.78 623.72L441.48 598.72L441.48 548.72zM528.08 -1.28L571.38 23.72L571.38 73.72L528.08 98.72L484.78 73.72L484.78 23.72zM571.38 73.72L614.69 98.72L614.69 148.72L571.38 173.72L528.08 148.72L528.08 98.72zM571.38 523.72L614.69 548.72L614.69 598.72L571.38 623.72L528.08 598.72L528.08 548.72zM657.99 223.72L701.29 248.72L701.29 298.72L657.99 323.72L614.69 298.72L614.69 248.72zM917.8 223.72L961.11 248.72L961.11 298.72L917.8 323.72L874.5 298.72L874.5 248.72zM1134.32 148.72L1177.62 173.72L1177.62 223.72L1134.32 248.72L1091.01 223.72L1091.01 173.72zM1350.83 523.72L1394.13 548.72L1394.13 598.72L1350.83 623.72L1307.53 598.72L1307.53 548.72zM1437.43 523.72L1480.74 548.72L1480.74 598.72L1437.43 623.72L1394.13 598.72L1394.13 548.72z' stroke='rgba(248%2c 179%2c 62%2c 0.21)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1027'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-text{
+  border-left: 2px solid #F8B33E;
+}
+
+.get-protected-btn, .enquire-now-btn, .join-course-btn{
+  all: unset;
+  background-color: transparent;
+  border: 1px solid #F8B33E;
+  border-radius: 5px;
+  color: #F8B33E;
+  transition: all 0.5s ease;
+}
+
+.get-protected-btn:hover, .enquire-now-btn:hover, .join-course-btn:hover{
+  background-color: #F8B33E;
+  color: #000;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.hero-description, .about-description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.hero-image{
+  width: 40%;
+  height: auto;
+  filter: drop-shadow(0 0px 20px rgba(0, 0, 0, 0.5));
+}
+
+.about-text, .stats-cards{
+  width: 50%;
+}
+
+.stats-cards{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.stats-cards div{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.membership-cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.services-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.service-card {
+  --service-gradient: linear-gradient(to bottom, rgba(26, 26, 26, 1), rgba(33, 37, 41, 0.5));
+  transition: transform 0.5s cubic-bezier(0.4,0,0.2,1), box-shadow 0.3s cubic-bezier(0.4,0,0.2,1), background 0.3s cubic-bezier(0.4,0,0.2,1);
+}
+.service-card:hover {
+  --service-gradient: linear-gradient(to bottom, rgba(26, 26, 26, 1), rgba(33, 37, 41, 0.8));
+  box-shadow: 0 8px 32px 0 rgba(248, 179, 62, 0.25), 0 1.5px 8px 0 rgba(0,0,0,0.12);
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.25);
+}
+
+.course-cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.custom-shadow {
+  box-shadow: 0 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+/* Top-right badge for Most Popular Membership Card */
+.top-right-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #F8B33E;
+  color: #212529;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 6px 18px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  z-index: 10;
+  letter-spacing: 1px;
+}
+
+/* Contact form input styles */
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  background: #1a1a1a;
+  border: 1.5px solid rgba(180, 180, 180, 0.2);
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 1rem;
+  box-shadow: none;
+}
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+  border: 1.5px solid rgba(180, 180, 180, 0.2);
+  color: #fff;
+  background-color: #1a1a1a;
+  outline: 2px solid rgba(248, 180, 62) !important;
+  outline-offset: 2px;
+  box-shadow: none !important;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #b4b4b4;
+  opacity: 1;
+}
+
+
+@media screen and (max-width: 992px) {
+  .nav-button {
+    width: 100%;
+  }
+
+  .hero-container{
+    margin-top: 80px;
+  }
+
+  .hero-title{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .hero-image{
+    width: 50%;
+    height: auto;
+  }
+
+  .about-text, .stats-cards{
+    width: 100%;
+  }
+
+  .stats-cards{
+    justify-content: center;
+  }
+
+  .services-container, .membership-cards, .course-cards, .contact-info{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
