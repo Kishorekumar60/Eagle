@@ -13,19 +13,19 @@ const Contact = () => {
         {
         icon: <MdOutlineEmail />,
         title: 'Email Us',
-        details: 'yugamcyberworld2277@gmail.com',
+        details: 'eaglesightteam@gmail.com',
         description: 'Get in touch for any inquiries'
         },
         {
         icon: <FiPhone />,
         title: 'Call Us',
-        details: '+91-9791312277',
+        details: '+91-7305373567',
         description: '24/7 emergency hotline available'
         },
         {
         icon: <SlLocationPin />,
         title: 'Visit Us',
-        details: '130/37A, Near Railway Gate, Krishnapuram (PO), Madathukulam (TK), Tiruppur (DT) - 642111. Ph - 9791312277.',
+        details: '17/2, Mounasamy Nagar, Near High Sec School, Cheran ma Nagar, Coimbatore - 641035',
         description: 'Our headquarters and main office'
         },
         {
