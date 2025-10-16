@@ -25,13 +25,13 @@ const Footer = () => {
                     </div>
                     <p className="text-light mt-4">Protecting individuals and organizations with trusted cyber investigation and security services. Our mission is to make the digital world safer, smarter, and more secure for everyone.</p>
                     <ul className="list-unstyled mt-4 mb-4">
-                        <li className="mb-2"><MdOutlineEmail size={20} className="me-2"/> yugamcyberworld2277@gmail.com</li>
-                        <li className="mb-2"><FiPhone size={20} className="me-2"/> +91-9791312277</li>
+                        <li className="mb-2"><MdOutlineEmail size={20} className="me-2"/> eaglesightteam@gmail.com</li>
+                        <li className="mb-2"><FiPhone size={20} className="me-2"/> +91-7305373567</li>
                         <li className="mb-2 d-flex align-items-start">
                             <SlLocationPin size={40} className="me-2" />
                             <span>
-                                130/37A, Near Railway Gate, Krishnapuram (PO), Madathukulam (TK), Tiruppur (DT) - 642111.  
-                                Ph - 9791312277.
+                                17/2, Mounasamy Nagar, Near High Sec School, Cheran ma Nagar, Coimbatore - 641035.  
+                                Ph - 7305373567.
                             </span>
                         </li>
                     </ul>
