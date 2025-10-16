@@ -30,8 +30,7 @@ const Footer = () => {
                         <li className="mb-2 d-flex align-items-start">
                             <SlLocationPin size={40} className="me-2" />
                             <span>
-                                17/2, Mounasamy Nagar, Near High Sec School, Cheran ma Nagar, Coimbatore - 641035.  
-                                Ph - 7305373567.
+                                17/2, Mounasamy Nagar, Near High Sec School, Cheran ma Nagar, Coimbatore - 641035.
                             </span>
                         </li>
                     </ul>
